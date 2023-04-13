@@ -38,6 +38,11 @@ html {
   overflow: hidden;
 }
 
+.wrapper {
+  position: fixed;
+  overflow: hidden;
+}
+
 .tooltip {
   display: none;
   position: absolute;

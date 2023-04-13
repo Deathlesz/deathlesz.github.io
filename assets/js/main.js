@@ -19,4 +19,4 @@ input.addEventListener("keyup", (e) => {
   }
 });
 
-logo.addEventListener("click", () => window.open("https://discordapp.com/users/479188998716129301", '_blank'));
+logo.addEventListener("click", () => window.open("https://discordapp.com/users/479188998716129301"));

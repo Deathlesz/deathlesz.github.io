@@ -231,6 +231,27 @@ html {
   cursor: pointer;
 }
 
+.card-body .profile-header .badges-container .badge-item a {
+  position: relative;
+  display: inline-block; 
+  margin: 5px;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card-body .profile-header .badges-container .badge-item a::after {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+}
+
 .card-body .profile-header .badges-container .badge-item a svg {
   height: 100%;
 }
